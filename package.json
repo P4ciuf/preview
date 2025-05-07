@@ -1,0 +1,22 @@
+{
+    "name": "sito-vetrina",
+    "version": "1.0.0",
+    "description": "Sito multipagina front-end vetrina per azienda",
+    "scripts": {
+        "start": "parcel index.html --open",
+        "build": "parcel build index.html about.html services.html portfolio.html contact.html blog.html --public-url ./"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.0",
+        "open": "^10.1.1",
+        "parcel": "^2.14.4"
+    },
+    "dependencies": {
+        "lightbox2": "^2.11.5",
+        "swiper": "^9.4.1"
+    },
+    "main": "index.js",
+    "keywords": [],
+    "author": "TechTribe Studio",
+    "license": "ISC"
+}
